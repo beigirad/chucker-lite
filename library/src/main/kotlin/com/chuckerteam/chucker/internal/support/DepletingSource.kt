@@ -5,6 +5,7 @@ import okio.ForwardingSource
 import okio.Source
 import okio.blackholeSink
 import okio.buffer
+import okio.delegate
 import java.io.IOException
 
 internal class DepletingSource(delegate: Source) : ForwardingSource(delegate) {

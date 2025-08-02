@@ -3,7 +3,7 @@ package com.chuckerteam.chucker.internal.data.entity
 import androidx.room.ColumnInfo
 import com.chuckerteam.chucker.internal.support.FormatUtils
 import com.chuckerteam.chucker.internal.support.FormattedUrl
-import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
+import okhttp3.toHttpUrlOrNull
 
 /**
  * A subset of [HttpTransaction] to perform faster Read operations on the Repository.

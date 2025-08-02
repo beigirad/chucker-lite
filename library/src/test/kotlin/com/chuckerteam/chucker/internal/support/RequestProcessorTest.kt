@@ -7,7 +7,7 @@ import com.chuckerteam.chucker.internal.data.entity.HttpTransaction
 import io.mockk.every
 import io.mockk.mockk
 import okhttp3.Headers
-import okhttp3.HttpUrl.Companion.toHttpUrl
+import okhttp3.toHttpUrl
 import okhttp3.Request
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

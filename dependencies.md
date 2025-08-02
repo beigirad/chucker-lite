@@ -68,17 +68,16 @@
 | com.google.code.gson:gson:2.10.1                                | DR  |      |
 | com.google.errorprone:error_prone_annotations:2.15.0            | DR  |      |
 | com.google.guava:listenablefuture:1.0                           | DR  |      |
-| com.squareup.okhttp3:okhttp:4.11.0                              | DR  |  DR  |
-| com.squareup.okhttp3:okhttp-bom:4.11.0                          | DR  |      |
-| com.squareup.okio:okio:3.2.0                                    | DR  |  DR  |
-| com.squareup.okio:okio-jvm:3.2.0                                | DR  |  DR  |
+| com.squareup.okhttp3:logging-interceptor:3.14.9                 | DR  |      |
+| com.squareup.okhttp3:okhttp:3.14.9                              | DR  |  DR  |
+| com.squareup.okio:okio:1.17.2                                   | DR  |  DR  |
 | org.brotli:dec:0.1.2                                            | DR  |      |
 | org.jetbrains:annotations:13.0                                  |     |  DR  |
 | org.jetbrains:annotations:23.0.0                                | DR  |      |
 | org.jetbrains.kotlin:kotlin-stdlib:1.8.22                       | DR  |  DR  |
 | org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22                | DR  |  DR  |
-| org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22                  | DR  |  DR  |
-| org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22                  | DR  |  DR  |
+| org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22                  | DR  |      |
+| org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22                  | DR  |      |
 | org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1          | DR  |      |
 | org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.7.1              | DR  |      |
 | org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1             | DR  |      |
@@ -86,8 +85,8 @@
 
 ### Info:
 ##### :library (Lib)
-	- debugRuntimeClasspath (D): 81
-	- releaseRuntimeClasspath (R): 81
+	- debugRuntimeClasspath (D): 80
+	- releaseRuntimeClasspath (R): 80
 ##### :library-no-op (NoOp)
-	- debugRuntimeClasspath (D): 8
-	- releaseRuntimeClasspath (R): 8
+	- debugRuntimeClasspath (D): 5
+	- releaseRuntimeClasspath (R): 5

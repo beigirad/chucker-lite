@@ -83,9 +83,9 @@ dependencies {
 
     implementation "org.brotli:dec:$brotliVersion"
 
-    api platform("com.squareup.okhttp3:okhttp-bom:$okhttpVersion")
-    api "com.squareup.okhttp3:okhttp"
-    testImplementation "com.squareup.okhttp3:mockwebserver"
+    api "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    api "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okhttpVersion"
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"

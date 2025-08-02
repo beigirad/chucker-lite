@@ -1,6 +1,13 @@
 package com.chuckerteam.chucker.internal.support
 
 import okhttp3.HttpUrl
+import okhttp3.encodedPathSegments
+import okhttp3.encodedQuery
+import okhttp3.host
+import okhttp3.pathSegments
+import okhttp3.port
+import okhttp3.query
+import okhttp3.scheme
 
 internal class FormattedUrl private constructor(
     val scheme: String,

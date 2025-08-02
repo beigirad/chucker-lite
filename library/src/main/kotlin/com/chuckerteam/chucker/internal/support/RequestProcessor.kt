@@ -6,6 +6,12 @@ import com.chuckerteam.chucker.api.BodyDecoder
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.internal.data.entity.HttpTransaction
 import okhttp3.Request
+import okhttp3.body
+import okhttp3.headers
+import okhttp3.host
+import okhttp3.method
+import okhttp3.pathSegments
+import okhttp3.url
 import okio.Buffer
 import okio.ByteString
 import okio.IOException

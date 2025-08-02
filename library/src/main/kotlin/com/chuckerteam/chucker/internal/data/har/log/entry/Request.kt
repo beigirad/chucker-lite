@@ -4,7 +4,7 @@ import com.chuckerteam.chucker.internal.data.entity.HttpTransaction
 import com.chuckerteam.chucker.internal.data.har.log.entry.request.PostData
 import com.chuckerteam.chucker.internal.data.har.log.entry.request.QueryString
 import com.google.gson.annotations.SerializedName
-import okhttp3.HttpUrl.Companion.toHttpUrl
+import okhttp3.toHttpUrl
 
 // https://github.com/ahmadnassri/har-spec/blob/master/versions/1.2.md#request
 // http://www.softwareishard.com/blog/har-12-spec/#request
