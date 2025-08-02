@@ -2,6 +2,9 @@ package com.chuckerteam.chucker.internal.support
 
 import okhttp3.Headers
 import okhttp3.Response
+import okhttp3.code
+import okhttp3.method
+import okhttp3.request
 import okio.Source
 import okio.buffer
 import okio.gzip

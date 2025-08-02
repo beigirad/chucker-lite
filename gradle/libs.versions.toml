@@ -25,8 +25,8 @@ paletteKtx = "1.0.0"
 
 # Networking
 gson = "2.13.1"
-okhttp = "5.1.0"
-retrofit = "3.0.0"
+okhttp = "3.14.9"
+retrofit = "2.9.0"
 wire = "5.3.5"
 
 # Debug and Quality Control

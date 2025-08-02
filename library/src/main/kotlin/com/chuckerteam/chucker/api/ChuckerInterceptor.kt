@@ -11,6 +11,9 @@ import com.chuckerteam.chucker.internal.support.addNonBlankPathSegments
 import okhttp3.HttpUrl
 import okhttp3.Interceptor
 import okhttp3.Response
+import okhttp3.host
+import okhttp3.url
+import okhttp3.encodedPath
 import java.io.IOException
 
 /**

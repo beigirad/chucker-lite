@@ -2,6 +2,8 @@ package com.chuckerteam.chucker.internal.support
 
 import okio.Buffer
 import okio.ByteString
+import okio.size
+import okio.write
 import java.io.EOFException
 import kotlin.math.min
 

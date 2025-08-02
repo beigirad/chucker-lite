@@ -3,7 +3,7 @@ package com.chuckerteam.chucker.api
 import okhttp3.Request
 import okhttp3.Response
 import okio.ByteString
-import okio.IOException
+import java.io.IOException
 
 /**
  * No-op declaration

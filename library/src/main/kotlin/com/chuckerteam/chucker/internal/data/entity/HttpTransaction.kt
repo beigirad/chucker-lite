@@ -18,7 +18,8 @@ import com.chuckerteam.chucker.internal.support.SpanTextUtil
 import com.google.gson.reflect.TypeToken
 import okhttp3.Headers
 import okhttp3.HttpUrl
-import okhttp3.HttpUrl.Companion.toHttpUrl
+import okhttp3.size
+import okhttp3.toHttpUrl
 import java.net.HttpURLConnection
 import java.util.Date
 

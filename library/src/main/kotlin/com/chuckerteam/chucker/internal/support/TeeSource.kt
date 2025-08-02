@@ -4,6 +4,7 @@ import okio.Buffer
 import okio.Sink
 import okio.Source
 import okio.Timeout
+import okio.size
 import java.io.IOException
 
 /**

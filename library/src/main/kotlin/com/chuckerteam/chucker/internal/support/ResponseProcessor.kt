@@ -4,12 +4,25 @@ import com.chuckerteam.chucker.api.BodyDecoder
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.internal.data.entity.HttpTransaction
 import okhttp3.Response
-import okhttp3.ResponseBody.Companion.asResponseBody
+import okhttp3.asResponseBody
+import okhttp3.body
+import okhttp3.cipherSuite
+import okhttp3.code
+import okhttp3.handshake
+import okhttp3.headers
+import okhttp3.javaName
+import okhttp3.message
+import okhttp3.protocol
+import okhttp3.receivedResponseAtMillis
+import okhttp3.request
+import okhttp3.sentRequestAtMillis
+import okhttp3.tlsVersion
 import okio.Buffer
 import okio.ByteString
 import okio.IOException
 import okio.Source
 import okio.buffer
+import okio.size
 import okio.source
 import java.io.File
 
